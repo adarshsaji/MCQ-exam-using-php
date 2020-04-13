@@ -71,7 +71,10 @@ margin: 1px auto 10px;
 }
 .menu ul li a:hover{border:1px solid #fff;;color: #fff; }
 
-
+.segment{
+  margin-left: 200px;
+  margin-right: 100px;
+}
 .segment h2 {
   border-bottom: 1px solid #ddd;
   font-size: 20px;

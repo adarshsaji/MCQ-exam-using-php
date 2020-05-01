@@ -18,6 +18,7 @@ $question = $exm->getQuesByNumber($number);
 	}
 
  ?>
+ 
 <div class="main">
 <h1>Question <?php echo $question['quesNo']; ?> of <?php echo $total; ?></h1>
 	<div class="test">
@@ -55,4 +56,6 @@ $question = $exm->getQuesByNumber($number);
 	</form>
 </div>
  </div>
+ 
+<form action="exam.php" name="form2" id="form2">
 <?php include 'inc/footer.php'; ?>

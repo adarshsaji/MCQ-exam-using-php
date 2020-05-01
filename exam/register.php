@@ -29,7 +29,7 @@
          </tr>
        </table>
 	   </form>
-	   <p>Already Registered ? <a href="index.php">Login</a> Here</p>
+	   
 
      <span id="state"></span>
 	</div>

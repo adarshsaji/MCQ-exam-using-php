@@ -13,7 +13,11 @@ height: 160px;}
   min-height: 400px;
   padding: 20px;
 }
-
+.timer {
+  width: 100px;
+  font-size: 2.5em;
+  text-align: center;
+}
 .success{
   color:green;}
 .error,.empty,.disable {
@@ -70,10 +74,15 @@ margin: 1px auto 10px;
   text-align: center;
 }
 .menu ul li a:hover{border:1px solid #fff;;color: #fff; }
-
+.timer {
+  width: 100px;
+  font-size: 2.5em;
+  text-align: center;
+}
 .segment{
-  margin-left: 200px;
-  margin-right: 100px;
+  margin-top: 75px;
+  margin-left: 600px;
+
 }
 .segment h2 {
   border-bottom: 1px solid #ddd;
@@ -89,7 +98,6 @@ margin: 1px auto 10px;
   margin: 0 0 0 70px;
   padding: 0;
 }
-.segment ul  li{}
 .segment ul li a {
   border: 1px solid #3399ff;
   border-radius: 3px;
@@ -105,19 +113,17 @@ margin: 1px auto 10px;
 
 
 .test {
-  border: 1px solid #f3f3f3;
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 20px;
+  margin-top: 50px;
+  margin-left: 400px;;
 }
 .test input[type="radio"] {
-  margin-bottom: 10px;
-  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   cursor:pointer;
 }
 .test h3 {
   border-bottom: 1px solid #f3f3f3;
-  font-size: 16px;
+  font-size: 36px;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }

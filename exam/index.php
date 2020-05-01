@@ -24,7 +24,9 @@ Session::checkLogin();
 			 </tr>
        </table>
 	   </form>
-	   <p align="center">New User ? <a href="register.php">Signup</a> Free</p>
+
+
+<form action="index.php" name="form1" id="form1">
 	   <span class="empty" style="display: none;">Field must not be empty !</span>
 	   <span class="error" style="display: none;">Email or Password not matched !</span>
 	   <span class="disable" style="display: none;">User Id disabled !</span>
